@@ -11,7 +11,7 @@ const anotherNumber = 123.5839;
 console.log(anotherNumber.toPrecision(4)); // exactness of the number and return a string
 
 const hundereds = 100000;
-console.log(hundereds.toLocaleString("en-IN"));
+console.log(hundereds.toLocaleString("en-IN")); // return a string
 
 //********************* Math ****************
 
