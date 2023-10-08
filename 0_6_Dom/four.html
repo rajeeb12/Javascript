@@ -34,8 +34,13 @@
     secondLang.replaceWith(newli);
 
     const firstLang = document.querySelector("li:first-child");
-    const newli1 = document.createElement('li')
-    newli1.appendChild(document.createTextNode("Type script"))
-    firstLang.replaceWith(newli1 )
+    // const newli1 = document.createElement('li')
+    // newli1.appendChild(document.createTextNode("Type script"))
+    // firstLang.replaceWith(newli1 )
+    firstLang.outerHTML = '<li>Type Script</li>'
+
+    //remove
+    const lastLang = document.querySelector('li:last-child');
+    lastLang.remove()
   </script>
 </html>
